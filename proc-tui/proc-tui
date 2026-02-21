@@ -1,0 +1,22 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require "bundler/setup"
+require "bubbletea"
+
+require_relative "lib/proc_tui"
+
+procfile = ARGV[0] || "Procfile"
+
+unless File.exist?(procfile)
+  puts "Error: #{procfile} not found"
+  puts ""
+  puts "Usage: #{$PROGRAM_NAME} [Procfile]"
+  puts ""
+  puts "Create a Procfile with process definitions:"
+  puts "  web: ruby server.rb"
+  puts "  worker: ruby worker.rb"
+  exit 1
+end
+
+Bubbletea.run(ProcTUI.new(procfile), alt_screen: true)

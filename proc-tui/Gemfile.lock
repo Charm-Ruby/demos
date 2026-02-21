@@ -1,0 +1,34 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    bubbles (0.1.1)
+      bubbletea
+      harmonica
+      lipgloss
+    bubbletea (0.1.3)
+      lipgloss (~> 0.1)
+    bubbletea (0.1.3-arm64-darwin)
+      lipgloss (~> 0.1)
+    harmonica (0.1.1)
+    lipgloss (0.2.2)
+    lipgloss (0.2.2-arm64-darwin)
+
+PLATFORMS
+  arm64-darwin-24
+  ruby
+
+DEPENDENCIES
+  bubbles
+  bubbletea
+  lipgloss
+
+CHECKSUMS
+  bubbles (0.1.1) sha256=ac16a9adef1cd4d51d7246ea6cda1a745a56321cc21a49e150e7446d62797d05
+  bubbletea (0.1.3) sha256=3fd7339d8f5726399ba2d206195f8a62f4defed5b40182b3511a64a29283a728
+  bubbletea (0.1.3-arm64-darwin) sha256=3f971a2213d9ba393411554732ad827b78cc16c50fec5086e468f10f53eadff4
+  harmonica (0.1.1) sha256=587da9bc55ffb6387c0ffb9243bb3b03d57d1ebaf29a17282d3912a3443f397a
+  lipgloss (0.2.2) sha256=d803bef2ce53aa7b113d032a4e1f8d3f6fb1841532b379c0b2bfff23a3af85e9
+  lipgloss (0.2.2-arm64-darwin) sha256=fed911706463ed21d249eace2224cd39323e94f4ab2a55ff6763b358b780d18f
+
+BUNDLED WITH
+  4.0.3

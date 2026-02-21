@@ -1,0 +1,3 @@
+web: ruby -e "loop { puts \"Request received at #{Time.now}\"; sleep rand(1..3) }"
+worker: ruby -e "loop { puts \"Processing job #{rand(1000..9999)}\"; sleep rand(2..5) }"
+scheduler: ruby -e "i=0; loop { i+=1; puts \"Tick #{i}\"; sleep 1 }"
