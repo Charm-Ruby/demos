@@ -1,8 +1,22 @@
-# proc-tui
+# `proc-tui`
 
-A terminal UI for running and monitoring Procfile processes, built with the Charm Ruby libraries (bubbletea-ruby, bubbles-ruby, lipgloss-ruby).
+A terminal UI for running and monitoring Procfile processes, built with the Charm Ruby libraries ([`bubbletea-ruby`](https://github.com/marcoroth/bubbletea-ruby), [`bubbles-ruby`](https://github.com/marcoroth/bubbles-ruby), [`lipgloss-ruby`](https://github.com/marcoroth/lipgloss-ruby)).
 
 Similar to [Overmind](https://github.com/DarthSim/overmind) and [Foreman](https://github.com/ddollar/foreman), but with an interactive TUI.
+
+## Screenshots
+
+### Combined Log View
+
+![All Tab](screenshots/all-tab.png)
+
+### Split View
+
+![Split View](screenshots/split-view.png)
+
+### Search / Filter
+
+![Search](screenshots/search.png)
 
 ## Features
 

@@ -6,9 +6,11 @@ Ruby bindings for the [Charm](https://charm.land) ecosystem of terminal UI tools
 
 ## Demos
 
-### [proc-tui](./proc-tui)
+### [`proc-tui`](./proc-tui)
 
 An interactive terminal UI for running and monitoring Procfile processes, similar to [Overmind](https://github.com/DarthSim/overmind) or [Foreman](https://github.com/ddollar/foreman) but with a full TUI experience. Features tabbed log views, real-time search/filtering, split panes, process control (start/stop/restart), and auto-scrolling.
+
+![proc-tui](./proc-tui/screenshots/all-tab.png)
 
 ## Libraries
 
